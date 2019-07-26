@@ -11,8 +11,23 @@ Students should fork this repository (repo) and fix the bugs. All students shoul
 * Review debugging/error handling techniques
 
 
-# Tech Standards -
-4.1, 4.2, 4.3, 4.4, 5.3, 6.0, 7.0, 8.1 - 8.7, 11.3, 12.1, 12.5, 12.7, 12.8, 12.10, 12.11, 14.1
+# [Tech Standards](https://cms.azed.gov/home/GetDocumentFile?id=5a6b7c473217e10b806ce060):
+6.1 Use the correct syntax for decision statements (e.g. if/else, if, switch case)
+6.4 Use the correct nesting for decision structures
+13.1 Identify errors in program modules
+13.2 Identify boundary cases and generate appropriate test data
+13.3 Perform integration testing including tests within a program to protect execution from bad input or other run-time errors
+13.4 Categorize, identify, and correct errors in code, including syntax, semantic, logic, and runtime
+13.5 Perform different methods of debugging (e.g. hand-trace code or real time debugging tools)
+# [WES Standards](https://cms.azed.gov/home/GetDocumentFile?id=589b40441130c10810eaeaa3): 	
+8.E - Adheres to state, federal, and international laws (legal issues)
+5.A - Functions independently to the group structure (project work is solo)
+7.B - Embodies organizational Values (W3C and ADA)
+# [ELA Standards](https://cms.azed.gov/home/GetDocumentFile?id=585aab3aaadebe12481b8459):	
+9-10.SL.5 - make strategic use of digital media in presentations to enhance findings and understanding.
+Math Standards:	
+A.1.N-Q.A.1 - Using Units as a way to understand problems (make sure the math in functions check out and uses the correct )
+
 
 # Videos
 [Using Breakpoints](https://www.youtube.com/watch?v=0DECGKu8ONc)
