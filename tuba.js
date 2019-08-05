@@ -14,7 +14,7 @@
 var acresComplete = true;
 var cropsComplete = true;
 var monthsComplete = true;
-ar fuelComplete = true;
+var fuelComplete = true;
 
 /* global variables referencing sidebar h2 and p elements */
 var messageHeadElement = document.getElementById("messageHead");
@@ -23,18 +23,27 @@ var messageElement = document.getElementById("message");
 /* global variables referencing fieldset elements */
 var acresFieldset = document.getElementsByTagName("fieldset")[0];
 var cropsFieldset = document.getElementsByTagName("fieldset")[1];
-var monthsFieldset document.getElementsByTagName("fieldset")[2];
-var fuelFieldset = document.getElementsByTagName("fieldset)[3];
+var monthsFieldset = document.getElementsByTagName("fieldset")[2];
+var fuelFieldset = document.getElementsByTagName("fieldset")[3];
 
 /* global variables referencing text input elements */
 var monthsBox = document.forms[0].months;
 var acresBox = document.forms[0].acres;
 
 /* verify acres text box entry is a positive number */
-function verifyAcres) {
-   testFormCompleteness();      
-}
-
+function verifyAcres() { 
+var validity = true;
+var messageText = "";
+try {
+   if (!(acresBox.value > 0)) {
+      throw "Please enter a number of acres greater than 0.";
+   }
+} catch (message) {
+      validity = false;
+      messageText = Text;
+      acresBox.value = "";
+} 
+            
 /* verify at least one crops checkbox is checked */
 function verifyCrops() {
    testFormCompleteness();
